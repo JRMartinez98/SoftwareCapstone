@@ -1,0 +1,50 @@
+<resources>
+
+    <string name="app_name">FA-RE</string>
+
+    <string name="true_button">True</string>
+    <string name="false_button">False</string>
+
+    <string name="a_check">a</string>
+    <string name="b_check">b</string>
+    <string name="c_check">c</string>
+    <string name="d_check">d</string>
+    <string name="a_button">a</string>
+    <string name="b_button">b</string>
+    <string name="c_button">c</string>
+    <string name="d_button">d</string>
+
+    <string name="next_button">Next</string>
+    <string name="check_answer_button">Confirm Answer</string>
+
+    <string name="correct_toast">Correct!</string>
+    <string name="incorrect_toast">Incorrect</string>
+
+    <string name="show_answer_button">Show Answer</string>
+
+    <string name="profile_button">Profile</string>
+    <string name="menu_button">Menu</string>
+    <string name="user_profile">User Profile</string>
+    <string name="username_text">Name Not Set</string>
+    <string name="multiple_choice">Multiple Choice</string>
+
+    <string name="fileName">File</string>
+    <string name="fileName_hint">Enter file name here</string>
+
+    <string name="check_file">Open File</string>
+
+    <string name="question">Question</string>
+    <string name="reminder">Enter question here</string>
+
+    <string name="multchoice">Multiple Choice Answers</string>
+    <string name="choice_a">Enter choice A</string>
+    <string name="choice_b">Enter choice B</string>
+    <string name="choice_c">Enter choice C</string>
+    <string name="choice_d">Enter choice D</string>
+
+    <string name="next_quest">Next Question</string>
+    <string name="done">Finish</string>
+
+    <string name="fileNameError_Toast">Please Enter a File Name first!</string>
+
+</resources>

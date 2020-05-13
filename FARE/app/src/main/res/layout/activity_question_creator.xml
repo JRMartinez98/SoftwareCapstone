@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp" >
+
+        <TextView
+            android:id="@+id/EnterFile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/fileName"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/fileName_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="15dp"
+            android:layout_below="@id/EnterFile"
+            android:hint="@string/fileName_hint" />
+
+        <Button
+            android:id="@+id/check_file_button"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/fileName_text"
+            android:layout_alignParentEnd="true"
+            android:text="@string/check_file" />
+
+        <TextView
+            android:id="@+id/questionEnter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/check_file_button"
+            android:text="@string/question"
+            android:textSize="20sp"
+            android:paddingTop="15dp"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/question_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/reminder"
+            android:layout_below="@id/questionEnter"/>
+
+        <TextView
+            android:id="@+id/choiceEnterText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/multchoice"
+            android:layout_below="@id/question_text"
+            android:paddingTop="20dp"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+
+        <LinearLayout
+            android:id="@+id/choiceA_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/choiceEnterText"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/a_check_QuestionCreator"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:id="@+id/choice_a"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/choice_a"
+                android:paddingTop="20dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/choiceB_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/choiceA_layout"
+            android:orientation="horizontal" >
+
+            <CheckBox
+                android:id="@+id/b_check_QuestionCreator"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:id="@+id/choice_b"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/choice_b"
+                android:paddingTop="15dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/choiceC_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/choiceB_layout"
+            android:orientation="horizontal" >
+
+            <CheckBox
+                android:id="@+id/c_check_QuestionCreator"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <EditText
+                android:id="@+id/choice_c"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/choice_c"
+                android:paddingTop="15dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/choiceD_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/choiceC_layout"
+            android:orientation="horizontal" >
+
+            <CheckBox
+                android:id="@+id/d_check_QuestionCreator"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:id="@+id/choice_d"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/choice_d"
+                android:paddingTop="15dp"/>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/question_confirm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/choiceD_layout"
+            android:text="@string/next_quest"
+            android:layout_toStartOf="@id/done_button"/>
+
+        <Button
+            android:id="@+id/done_button"
+            android:layout_width="96dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/choiceD_layout"
+            android:layout_alignParentEnd="true"
+            android:text="@string/done" />
+
+        <LinearLayout
+            android:id="@+id/questionViewer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/done_button"
+            android:orientation="vertical"
+            android:paddingStart="10dp"/>
+
+    </RelativeLayout>
+</ScrollView>

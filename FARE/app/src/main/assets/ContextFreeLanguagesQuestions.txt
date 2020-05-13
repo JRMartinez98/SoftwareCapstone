@@ -1,0 +1,130 @@
+question = Given the CFG:
+    \n S -> bS | aaS | b
+    \n Give all the strings in the language with four or fewer letters.
+answer = 1
+choices = {
+    a) b, baa, aab, aaa, bbb, bbaa, aabb, baab
+    b) b, bb, bbb, aab, bbbb, aabb, baab
+    c) aa, aab, bab, babb, bbbb, aaab
+    d) b, aab, bbb, bbbb, aabb, baab
+}
+
+question = Given the CFG
+    \n S -> aSb | bSa | Λ
+    \n Give all the strings in the language with four or fewer letters.
+answer = 2
+choices {
+    a) ab, ba, abab, abba
+    b) ab, ba, abba, baab
+    c) ab, ba, aabb, abab, bbaa
+    d) ba, bb, abab, abba, baab
+}
+
+question = Which of the following regular expressions defines the CFG
+    \n S -> aB | bA | Λ
+    \n A -> aS
+    \n B -> bS
+answer = 0
+choices {
+    a) (ab + ba)*
+    b) (ab)*
+    c) (ab* + ba*)
+    d) (a + b)(a + b)*
+}
+
+question = Which of the following is a word in the language PALINDROME as defined over the alphabet Σ = {a  b  c}?
+answer = 1
+choices {
+    a) abbbb
+    b) abcba
+    c) cbacba
+    d) bacacb
+}
+
+question = What language does the following CFG describe
+    \n S -> aS | bX | Λ
+    \n X -> aS | bY | Λ
+    \n Y -> aS| Λ
+answer = 1
+choices {
+    a) The language in which the letter b appears only in singles
+    b) The language in which the letter b is never tripled
+    c) The language in which the letters a and b alternate
+    d) The language in which all words start and end with a
+}
+
+question = What language does the following CFG describe
+    \n S -> aXb | bXa | Λ
+    \n X -> aX | bX | Λ
+answer = 3
+choices {
+    a) The language in which all words start and end with the same letter
+    b) The language in which a and b appear in doubles
+    c) The language in which all words begin with aa or bb
+    d) The language in which all words have different first and last letters
+}
+
+question = Which of the following is a semiword?
+answer = 2
+choices {
+    a) aXa
+    b) aSX
+    c) abcX
+    d) Xa
+}
+
+question = Context Free languages are a subset of
+answer = 0
+choices {
+    a) Context Sensitive Languages
+    b) Regular Languages
+    c) Regular Expressions
+    d) Push Down Automata
+}
+
+question = Context Free Grammars can be recognized by which of the following
+answer = 2
+choices {
+    a) FA
+    b) TG
+    c) PDA
+    d) NFA
+}
+
+question = Which of the following is an example of a unit production?
+answer = 2
+choices = {
+    a) S -> aX
+    b) S -> Λ
+    c) S -> X
+    d) S -> ab
+}
+
+question = What can be used to show that a CFG is ambiguous?
+answer = 0
+choices {
+    a) Syntax Trees
+    b) Turing Machines
+    c) Push Down Automata
+    d) Leftmost derivation
+}
+
+question = Which of the following rules is in Chomsky Normal Form?
+answer = 3
+choices {
+    a) S -> A
+    b) S -> SXX
+    c) S -> Sa
+    d) S -> AX
+}
+
+question = What is not a condition that must hold for a CFG to be in Chomsky Normal Form?
+answer = 1
+choices {
+    a) Nonterminal -> String of two nonterminals
+    b) Nonterminal -> String of terminals
+    c) Nonterminal -> one terminal
+    d) None of the above are conditions for a CFG to be in CNF
+}
+
+

@@ -1,0 +1,53 @@
+question = Which machine is able to recognize non-context-free languages?
+answer = 3
+choices {
+    a) Push Down Automata
+    b) Finite Automata
+    c) Context Free Grammar
+    d) Turing Machine
+}
+
+question = Which class of languages falls under the umbrella of non-context-free languages?
+answer = 0
+choices {
+    a) Recursively enumerable languages
+    b) Nondeterministic context free languages
+    c) Regular Languages
+    d) Finite Languages
+}
+
+question = What is the correct order from innermost circle to outermost of the chomsky hierarchy?
+answer = 2
+choices{
+    a) context sensitive, ALAN, recursive Languages
+    b) recursively enumerable languages, recursive languages, context sensitive
+    c) context sensitive, recursive languages, recursively enumerable languages
+    d) context sensitive, ALAN, recursively enumerable languages
+}
+
+question = Which language is context sensitive?
+answer = 0
+choices {
+    a) a^nb^3na^n
+    b) a^nb^n
+    c) a^nb^nc^m
+    d) a^na^n
+}
+
+question = What is not true of recursively enumerable languages?
+answer = 1
+choices {
+    a) They can be recognized by a TM
+    b) The TM that accepts the language must reject every word in the complement of the language
+    c) The TM that accepts the language must reject or loop forever for every word in the complement of the language
+    d) All of the above are true of recursively enumerable languages
+}
+
+question = What is not true of recursive languages?
+answer = 2
+choices {
+    a) The TM that accepts the language must reject every word in the complement of the language
+    b) The TM that accepts the language must reject or loop forever for every word in the complement of the language
+    c) The TM that accepts the languages must loop forever for every word in the complement of the language
+    d) All of the above are true of recursive languages
+}

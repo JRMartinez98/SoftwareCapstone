@@ -1,0 +1,163 @@
+
+
+question = Consider the language S*, where S = {abb ab}. \n Which of the following words are in the language?
+answer = 2
+choices = {
+    a) abbaba
+    b) abbabba
+    c) abbabab
+    d) ababbb
+}
+
+question = Given the Recursive definition for language S \n     Rule 1: ba is in S \n     Rule 2: if x is in S so is ax and bx \n What is the language that this describes?
+answer = 3
+choices = {
+    a) The language S that contains all words that begin with ba
+    b) The language S that contains all words that contain at least one occurrence of ab
+    c) The language S that contains all words of even length that contain at least one occurrence of ba
+    d) The language S that contains all words that end with ba
+}
+
+question = Which language contains these words: bbbbbab, babbbbb, bbbabbb?
+answer = 0
+choices = {
+    a) The language S* where S = {bab  bb}
+    b) The language S* where S = {bbb  ab}
+    c) The language S* where S = {ba bb}
+    d) The language S* where S = {ba bbb}
+}
+
+question = Let S = {b  aa}. What are all the words in S* that have four letters?
+answer = 1
+choices = {
+    a) aaaa, aaab, abab, bbaa, bbbb
+    b) aaaa, aabb, baab, bbaa, bbbb
+    c) aaaa, aabb, bbaa, bbbb
+    d) aabb, bbaa, bbba, aaab, baab
+}
+
+question = Which of the following is a word in the language PALINDROME as defined over the alphabet Σ = {a  b  c}?
+answer = 1
+choices = {
+    a) abbbb
+    b) abcba
+    c) cbacba
+    d) bacacb
+}
+
+question = Consider the language S*, where S = {aa, b}. How many words does this language have of length 6?
+answer = 2
+choices = {
+    a) 8
+    b) 6
+    c) 13
+    d) 11
+}
+
+question = Let S = {a, bb, abaab}, T = {b, bab, abab}. Which of the following is an element of ST*?
+answer = 3
+choices = {
+    a) abaababaab
+    b) ababa
+    c) babbaabab
+    d) bbababbab
+}
+
+question = Give the regular expression for the language over the alphabet Σ = {a  b } of all strings that contain exactly one a.
+answer = 2
+choices = {
+    a) a*b*
+    b) aba*
+    c) b*ab*
+    d) (a + b)*
+}
+
+question = Give the regular expression for the language over the alphabet Σ = {a  b } of all strings that begin and end with b.
+answer = 0
+choices = {
+    a) b(a + b)*b
+    b) a*b
+    c) ba*
+    d) (a + b)(a + b)*b
+}
+
+question = Give the regular expression for the language over the alphabet Σ = {a  b } of all strings that contain either the substring bb or the substring bab (possibly both).
+answer = 1
+choices = {
+    a) (a)*bab(a)*
+    b) (a + b)*(bb + bab)(a + b)*
+    c) (a + b)*b
+    d) ba(a + b)*
+}
+
+question = Give the regular expression for the language over the alphabet Σ = {a  b } of all strings that contain an odd number of b’s.
+answer = 2
+choices = {
+   a) bb*
+   b) ab
+   c) (bb)*b
+   d) (bbb)*
+}
+
+question = Which of the following languages is regular?
+answer = 2
+choices = {
+    a) PALINDROME
+    b) DOUBLEWORD
+    c) EVEN-EVEN
+    d) TRAILINGCOUNT
+}
+
+question = Which is true of a Moore Machine?
+answer = 3
+choices = {
+    a) Is equivalent to a finite automata
+    b) Produces an output with one less character than the input
+    c) Can be used to get a regular expression from a finite automata
+    d) Produces an output with one more character than the input
+}
+
+question = What does the Σ symbol signify?
+answer = 2
+choices = {
+    a) The set of accepting states in a language
+    b) The set of rejecting states in a language
+    c) The alphabet for a language
+    d) The words in a language
+}
+
+question = A language in which any string of letters from E is in a word, even the null string, can be referred to as:
+answer = 0
+choices = {
+    a) Closure
+    b) Regular language
+    c) Grammar
+    d) Defining language
+}
+
+question = An alphabet is:
+answer = 1
+choices = {
+    a) A certain specified set of strings
+    b) A finite set of symbols
+    c) A set of rules that impose a mapping.
+    d) A set of states
+}
+
+question = Consider the language S*, where S = {a, b}. How many words does this language have of length n?
+answer = 2
+choices = {
+    a) 2n-1
+    b) N
+    c) 2n
+    d) 2n - 1
+}
+
+question = Let Σ ={a, b, c}. The language associated with the regular expression (a+b)*c(a+b)*((a+b)*c(a+b)*)* Is
+answer = 0
+choices = {
+    a) the language containing all strings that have at least one c.
+    b) the language containing all strings that have an even number of c’s.
+    c) the language containing all strings that have an odd number of c’s.
+    d) equivalent to language ((a+b)∗c(a+b)((a+b)∗c(a+b)∗)∗).
+}
